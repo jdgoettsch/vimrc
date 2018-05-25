@@ -46,3 +46,9 @@
 [submodule "vim-pathogen"]
 	path = vim-pathogen
 	url = https://github.com/tpope/vim-pathogen.git
+[submodule "deps/vimfiles"]
+	path = deps/vimfiles
+	url = https://github.com/akanosora/vimfiles.git
+[submodule "deps/vim-colors-solarized"]
+	path = deps/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git

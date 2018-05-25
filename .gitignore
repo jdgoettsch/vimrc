@@ -5,4 +5,8 @@ syntax: glob
 .vim/autoload/pathogen.vim
 .vim/autoload/togglebg.vim
 .vim/colors/solarized.vim
+.vim/ftdetect/sas.vim
+.vim/ftplugin/sas.vim
+.vim/indent/sas.vim
 .vim/spell/
+.vim/syntax/sas.vim
