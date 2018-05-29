@@ -22,3 +22,12 @@ install:
 	test -L $(PWD)/.vim/ftplugin/sas.vim || ln -s $(PWD)/deps/vimfiles/ftplugin/sas.vim ~/.vim/ftplugin/sas.vim
 	test -L $(PWD)/.vim/indent/sas.vim || ln -s $(PWD)/deps/vimfiles/indent/sas.vim ~/.vim/indent/sas.vim
 	test -L $(PWD)/.vim/syntax/sas.vim || ln -s $(PWD)/deps/vimfiles/syntax/sas.vim ~/.vim/syntax/sas.vim
+
+clean:
+	rm -f $(PWD)/.vim/autoload/togglebg.vim
+	rm -f $(PWD)/.vim/autoload/pathogen.vim
+	rm -f $(PWD)/.vim/colors/solarized.vim
+	rm -f $(PWD)/.vim/ftdetect/sas.vim
+	rm -f $(PWD)/.vim/ftplugin/sas.vim
+	rm -f $(PWD)/.vim/indent/sas.vim
+	rm -f $(PWD)/.vim/syntax/sas.vim
