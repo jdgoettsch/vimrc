@@ -15,10 +15,10 @@ install:
 	test -L ~/.vim || ln -s $(PWD)/.vim ~/.vim
 	test -L ~/.vimrc || ln -s $(PWD)/.vimrc ~/.vimrc
 	test -L ~/.gvimrc || ln -s $(PWD)/.gvimrc ~/.gvimrc
-	test -L $(PWD)/.vim/autoload/togglebg.vim || ln -s $(PWD)/deps/vim-colors-solarized/autoload/togglebg.vim $(PWD)/.vim/autoload/togglebg.vim
-	test -L $(PWD)/.vim/autoload/pathogen.vim || ln -s $(PWD)/vim-pathogen/autoload/pathogen.vim $(PWD)/.vim/autoload/pathogen.vim
-	test -L $(PWD)/.vim/colors/solarized.vim || ln -s $(PWD)/deps/vim-colors-solarized/colors/solarized.vim $(PWD)/.vim/colors/solarized.vim
-	test -L $(PWD)/.vim/ftdetect/sas.vim || ln -s $(PWD)/deps/vimfiles/ftdetect/sas.vim $(PWD)/.vim/ftdetect/sas.vim
-	test -L $(PWD)/.vim/ftplugin/sas.vim || ln -s $(PWD)/deps/vimfiles/ftplugin/sas.vim $(PWD)/.vim/ftplugin/sas.vim
-	test -L $(PWD)/.vim/indent/sas.vim || ln -s $(PWD)/deps/vimfiles/indent/sas.vim $(PWD)/.vim/indent/sas.vim
-	test -L $(PWD)/.vim/syntax/sas.vim || ln -s $(PWD)/deps/vimfiles/syntax/sas.vim $(PWD)/.vim/syntax/sas.vim
+	test -L $(PWD)/.vim/autoload/togglebg.vim || ln -s $(PWD)/deps/vim-colors-solarized/autoload/togglebg.vim ~/.vim/autoload/togglebg.vim
+	test -L $(PWD)/.vim/autoload/pathogen.vim || ln -s $(PWD)/vim-pathogen/autoload/pathogen.vim ~/.vim/autoload/pathogen.vim
+	test -L $(PWD)/.vim/colors/solarized.vim || ln -s $(PWD)/deps/vim-colors-solarized/colors/solarized.vim ~/.vim/colors/solarized.vim
+	test -L $(PWD)/.vim/ftdetect/sas.vim || ln -s $(PWD)/deps/vimfiles/ftdetect/sas.vim ~/.vim/ftdetect/sas.vim
+	test -L $(PWD)/.vim/ftplugin/sas.vim || ln -s $(PWD)/deps/vimfiles/ftplugin/sas.vim ~/.vim/ftplugin/sas.vim
+	test -L $(PWD)/.vim/indent/sas.vim || ln -s $(PWD)/deps/vimfiles/indent/sas.vim ~/.vim/indent/sas.vim
+	test -L $(PWD)/.vim/syntax/sas.vim || ln -s $(PWD)/deps/vimfiles/syntax/sas.vim ~/.vim/syntax/sas.vim
