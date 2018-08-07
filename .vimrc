@@ -38,6 +38,7 @@ set number
 set history=100
 set ruler
 set backspace=2
+set scrolloff=8
 
 " When editing a file, always jump to the last cursor position
 autocmd BufReadPost *
