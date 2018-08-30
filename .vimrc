@@ -59,3 +59,7 @@ set runtimepath+=~/.vim/my-snippets/
 let g:ultisnips_python_style="sphinx"
 
 map <F12> :TagbarToggle<CR>
+
+let g:ale_linters = {
+\	'python': ['flake8', 'mypy', 'pycodestyle'],
+\}
