@@ -51,6 +51,10 @@ autocmd BufReadPost *
 set wildignore=*.pyc,*.swp
 let g:netrw_list_hide='*\.pyc,*\.swp,'
 
+let g:syntastic_python_pylint_post_args="--max-line-length=120"
+let g:pymode_options_max_line_length=120
+let g:pymode_lint_options_pep8={'max_line_length': g:pymode_options_max_line_length}
+
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
